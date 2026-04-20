@@ -1,0 +1,22 @@
+# 챗봇 관련 패키지
+langchain==0.1.0
+chromadb==0.4.22
+sentence-transformers==2.2.2
+huggingface-hub==0.19.4
+transformers==4.35.2
+torch==2.0.1
+python-dotenv==1.0.0
+openai==1.12.0
+
+# 대시보드 및 데이터 처리 패키지
+dash==2.16.1
+dash-bootstrap-components==1.5.0
+plotly==5.17.0
+pandas==2.1.4
+psycopg2-binary==2.9.9
+requests==2.31.0
+Pillow==10.1.0
+
+# 기타 유틸리티
+numpy==1.24.3
+scipy==1.11.4 

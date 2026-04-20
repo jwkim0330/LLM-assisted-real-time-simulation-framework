@@ -1,0 +1,6 @@
+/* assets/map_styles.css */
+#map-graph {
+  border-radius: 12px !important;              /* 모서리 둥글게 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;  /* 그림자 */
+  overflow: hidden;                             /* 모서리 바깥으로 넘치는 부분 자름 */
+}

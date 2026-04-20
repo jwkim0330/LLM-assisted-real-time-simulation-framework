@@ -1,0 +1,18 @@
+# Python 관련 캐시 파일
+__pycache__/
+*.py[cod]
+*.pyo
+
+# IDE 설정 파일
+.vscode/
+.idea/
+
+# 환경 설정 파일
+.env
+
+# 로그 파일
+*.log
+
+# 임시 파일 및 출력물
+*.mp4
+*.pkl

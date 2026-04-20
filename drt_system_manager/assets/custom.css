@@ -1,0 +1,54 @@
+/* assets/custom.css */
+
+/* 모든 Bootstrap 카드에 12px 둥근 모서리를 적용 */
+.card {
+  border-radius: 12px !important;
+  overflow: hidden;  /* 내부 자식도 같이 잘리도록 */
+}
+
+/* 카드 안의 그림자나 배경은 원래대로 유지 */
+.card-body {
+  background-color: #ffffff; /* 필요시 흰 배경 다시 지정 */
+}
+
+/* Dash DataTable 에도 둥근 모서리 적용 (옵션) */
+.dash-table-container {
+  border-radius: 12px !important;
+  overflow: hidden;
+}
+
+/* Plotly 그래프 컨테이너 둥글게 (옵션) */
+.js-plotly-plot {
+  border-radius: 12px !important;
+}
+
+/* Dash 그래프 내부의 img/video/canvas만 안전하게 대상 */
+.dash-graph img,
+.dash-graph video,
+.dash-graph canvas {
+  overflow: clip; /* 또는 hidden */
+}
+
+/* Mapbox GL 캔버스도 명시적으로 클립 (경고 차단) */
+.mapboxgl-canvas {
+  overflow: clip !important; /* 또는 hidden */
+}
+
+/* 맵 업데이트 성능 최적화 */
+#map-graph {
+  will-change: transform;
+  transform: translateZ(0);
+}
+
+/* M1 맥북 최적화 */
+.dash-graph {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+/* 모든 img 태그에 overflow:clip 적용 */
+img {
+  overflow: clip !important;
+}

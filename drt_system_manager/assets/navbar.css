@@ -1,0 +1,22 @@
+/* assets/navbar.css */
+.navbar {
+  background-color: #0e4a84 !important;
+}
+.navbar .navbar-brand,
+.navbar .btn {
+  color: #fff !important;  /* 필요하면 텍스트 색도 강제 지정 */
+}
+/* assets/navbar.css */
+
+/* Navbar 내부의 '데이터 보기' 버튼만 지정하고 싶다면 href 속성으로 (or id를 주고) 타겟팅 */
+.navbar .btn[href="/data"] {
+  border-radius: 0.5rem;      /* 8px */
+  font-weight: bold;
+  color: #0e4a84 !important;
+}
+/* assets/navbar.css */
+.navbar .btn {
+  border-radius: 0.5rem !important;  /* 모서리 둥글게 */
+  font-weight: bold    !important;   /* 볼드체 */
+  color:       #0e4a84 !important;   /* 텍스트 색상 */
+}

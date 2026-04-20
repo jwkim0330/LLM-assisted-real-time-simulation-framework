@@ -1,0 +1,50 @@
+{
+	"fileName": "shuttleInfo",
+	"shuttleInfo": [
+		{
+			"shuttleID": "VEHICLE0000000000001",
+			"operateTime": 1.0,
+			"moveTime": 1.0,
+			"coordinates": [
+				131.0,
+				34.0
+			]
+		},
+		{
+			"shuttleID": "VEHICLE0000000000002",
+			"operateTime": 1.0,
+			"moveTime": 1.0,
+			"coordinates": [
+				125.0,
+				8.0
+			]
+		},
+		{
+			"shuttleID": "VEHICLE0000000000003",
+			"operateTime": 1.0,
+			"moveTime": 1.0,
+			"coordinates": [
+				130.0,
+				8.0
+			]
+		},
+		{
+			"shuttleID": "VEHICLE0000000000004",
+			"operateTime": 1.0,
+			"moveTime": 1.0,
+			"coordinates": [
+				124.0,
+				7.0
+			]
+		},
+		{
+			"shuttleID": "VEHICLE0000000000005",
+			"operateTime": 1.0,
+			"moveTime": 1.0,
+			"coordinates": [
+				123.0,
+				1.0
+			]
+		}
+	]
+}

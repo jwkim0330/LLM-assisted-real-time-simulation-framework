@@ -1,0 +1,4 @@
+# 복사본을 만들어 android/local.properties 로 저장한 뒤 실제 키/SDK 경로를 넣으세요.
+# 실제 local.properties 는 .gitignore 에 등록되어 커밋되지 않습니다.
+flutter.sdk=/path/to/flutter
+MAPS_API_KEY=YOUR_GOOGLE_MAPS_API_KEY

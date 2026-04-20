@@ -1,0 +1,33 @@
+{
+	"fileName": "shuttleInfo",
+	"OHTInfo": [
+		{
+			"name": "VEHICLE0000000000001",
+			"currentCoordinates": [
+				131.0,
+				34.0
+			]
+		},
+		{
+			"name": "VEHICLE0000000000002",
+			"currentCoordinates": [
+				148.0,
+				28.0
+			]
+		},
+		{
+			"name": "VEHICLE0000000000003",
+			"currentCoordinates": [
+				84.0,
+				20.0
+			]
+		},
+		{
+			"name": "VEHICLE0000000000004",
+			"currentCoordinates": [
+				121.0,
+				43.0
+			]
+		}
+	]
+}

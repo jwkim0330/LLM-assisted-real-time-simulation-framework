@@ -1,0 +1,41 @@
+# 환경 변수 및 비밀 정보
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.json
+secrets.json
+service-account*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 가상환경
+venv/
+env/
+.venv/
+ENV/
+
+# IDE / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude Code 세션
+.claude/
+
+# 로그 / 캐시
+*.log
+logs/
+.cache/

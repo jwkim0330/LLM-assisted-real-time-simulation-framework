@@ -1,0 +1,45 @@
+/* assets/pretendard.css */
+
+/* 기존 불러오기 + 전역 적용 */
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+body {
+  font-family: 'Pretendard', sans-serif;
+}
+
+/* ----------------------------------------------------------------
+   Dash DataTable 내부에 Pretendard 적용
+   ---------------------------------------------------------------- */
+
+/* 셀 전체 (일반 데이터 셀) */
+.dash-table-container .dash-spreadsheet-container .cell {
+  font-family: 'Pretendard', sans-serif !important;
+}
+
+/* 헤더(컬럼명) 셀 */
+.dash-table-container .dash-spreadsheet-container .column-header--name {
+  font-family: 'Pretendard', sans-serif !important;
+  font-weight: bold;
+}
+
+/* 필터 박스, 페이징 버튼 등 테이블 내 input/button */
+.dash-table-container .dash-filter input,
+.dash-table-container .dash-paginator {
+  font-family: 'Pretendard', sans-serif !important;
+}
+/* 전체 DataTable 스프레드시트 영역 */
+.dash-spreadsheet,
+.dash-spreadsheet-container {
+  font-family: 'Pretendard', sans-serif !important;
+}
+
+/* 각 셀과 헤더 셀 */
+.dash-spreadsheet-container .cell,
+.dash-spreadsheet-container .column-header--name {
+  font-family: 'Pretendard', sans-serif !important;
+}
+
+/* 페이징 버튼, 필터 입력창 등 테이블 컨트롤 */
+.dash-table-container input,
+.dash-table-container button {
+  font-family: 'Pretendard', sans-serif !important;
+}

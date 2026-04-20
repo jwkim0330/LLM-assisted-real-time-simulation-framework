@@ -1,0 +1,54 @@
+# ===== 환경 변수 / 시크릿 =====
+.env
+.env.local
+*.local.properties
+
+# ===== API 키 파일 =====
+Secrets.xcconfig
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ===== Flutter / Dart =====
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+build/
+**/Flutter/Generated.xcconfig
+**/Flutter/flutter_export_environment.sh
+**/Flutter/ephemeral/
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ===== Claude Code =====
+.claude/settings.local.json
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== 데이터베이스 =====
+*.db
+*.sqlite3
+
+# ===== 로그 =====
+*.log
+
+# ===== Android =====
+drt_app/android/local.properties
+
+# ===== iOS =====
+drt_app/ios/Flutter/Secrets.xcconfig

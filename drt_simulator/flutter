@@ -1,0 +1,68 @@
+import 'dart:convert';
+import 'dart:io';
+import 'dart:math';
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter 서버 통신 예제',
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('서버 통신 데모'),
+        ),
+        body: Center(
+          child: ElevatedButton(
+            onPressed: sendData,
+            child: Text('데이터 전송'),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+void sendData() async {
+  final random = Random();
+  
+  // 1. 데이터 생성
+  double dep_x = double.parse((400 + random.nextDouble() * (1500 - 400)).toStringAsFixed(2));
+  double dep_y = double.parse((1400 + random.nextDouble() * (2300 - 1400)).toStringAsFixed(2));
+  double arr_x = double.parse((1700 + random.nextDouble() * (2000 - 1700)).toStringAsFixed(2));
+  double arr_y = double.parse((1900 + random.nextDouble() * (2500 - 1900)).toStringAsFixed(2));
+  int psgrNum = random.nextInt(3) + 1; // 1부터 3까지 랜덤 값
+
+  Map<String, dynamic> data = {
+    "dep_x": dep_x,
+    "dep_y": dep_y,
+    "arr_x": arr_x,
+    "arr_y": arr_y,
+    "psgrNum": psgrNum,
+  };
+
+  String jsonData = json.encode(data);
+  
+  // 2. 서버 연결
+  String host = "127.0.0.1";
+  int port = 8888;
+  
+  try {
+    Socket socket = await Socket.connect(host, port);
+    print('서버와 연결되었습니다: ${socket.remoteAddress.address}:${socket.remotePort}');
+    
+    // 3. 데이터 전송
+    socket.write(jsonData);
+    print('[전송] $jsonData');
+    
+    // 4. 연결 종료
+    await socket.close();
+    print('연결이 종료되었습니다.');
+  } catch (error) {
+    print('서버 연결 에러: $error');
+  }
+}
