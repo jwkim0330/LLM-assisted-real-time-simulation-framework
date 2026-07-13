@@ -1,4 +1,4 @@
-# HILS_DRT
+# LLM-assisted real-time simulation framework
 
 
 
