@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite this software and data package when using it."
+title: "Reproducibility package for A human-in-the-loop simulation framework with large language model interfaces for demand-responsive transport operations"
+type: software
+version: 1.0.0
+authors:
+  - family-names: Kim
+    given-names: Jun-Woo
+  - family-names: Choi
+    given-names: Min-Ho
+  - family-names: Lee
+    given-names: Sun-Woo
+  - family-names: Seo
+    given-names: Kyung-Min
+license: MIT

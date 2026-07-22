@@ -1,0 +1,34 @@
+{
+  "package_name": "PLOS ONE reproducibility package",
+  "reference_python": "3.11",
+  "simulation_scenarios": [
+    "Festival",
+    "Lunch",
+    "Holiday"
+  ],
+  "simulation_conditions": [
+    "HILS_BURST",
+    "MATH_UNIFORM",
+    "MATH_POISSON"
+  ],
+  "seeds_per_condition": 100,
+  "total_simulation_runs": 900,
+  "raw_csv_files": 1800,
+  "figures_reproduced": [
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "version": "1.0.0",
+  "demand_locations_total": 461,
+  "demand_locations_tcbis": 441,
+  "demand_locations_campus_estimated": 20,
+  "demand_observation_period": "2024-05-11/2024-05-24",
+  "reproducibility_levels": {
+    "analysis_and_figures": "fully executable from archived outputs",
+    "simulation": "executable from supplied processed inputs",
+    "historical_tcbis_acquisition": "documented; complete individual source exports not archived"
+  }
+}

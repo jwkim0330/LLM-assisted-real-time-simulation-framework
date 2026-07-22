@@ -1,0 +1,13 @@
+﻿Scenario,Metric,Contrast,Median_Delta,Wilcoxon_p,N_pairs
+Festival,TargetWaitBurdenShare,Synchronized - Uniform,0.08401930204599528,2.1729294370652986e-14,100
+Festival,TargetWaitBurdenShare,Synchronized - Poisson,0.08142515853031453,2.7619723166512835e-14,100
+Festival,ExcessBurden,Synchronized - Uniform,0.08469004063768923,2.0366656656333666e-15,100
+Festival,ExcessBurden,Synchronized - Poisson,0.08414383473714081,1.0148444729189685e-15,100
+Lunch,TargetWaitBurdenShare,Synchronized - Uniform,0.0943164905255269,4.095126545597987e-17,100
+Lunch,TargetWaitBurdenShare,Synchronized - Poisson,0.07253811568501108,1.3489339428091349e-16,100
+Lunch,ExcessBurden,Synchronized - Uniform,0.09596936873183501,2.0195637546078604e-17,100
+Lunch,ExcessBurden,Synchronized - Poisson,0.0748864081675537,1.040096387925698e-16,100
+Holiday,TargetWaitBurdenShare,Synchronized - Uniform,0.0810934350542751,1.8191840040308718e-13,100
+Holiday,TargetWaitBurdenShare,Synchronized - Poisson,0.07561897407878031,1.5583405211656375e-12,100
+Holiday,ExcessBurden,Synchronized - Uniform,0.08377731594841756,3.8895150867593465e-16,100
+Holiday,ExcessBurden,Synchronized - Poisson,0.07585976151170004,1.631012778441796e-15,100

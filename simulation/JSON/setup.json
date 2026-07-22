@@ -1,0 +1,19 @@
+{
+  "fileName": "setup",
+  "simulationMode": true,
+  "numShuttles": 6,
+  "psgrStart": 0,
+  "psgrEnd": 999999,
+  "monteCarlo": 100,
+  "isShuttleChange": false,
+  "isAnalysisLogOn": false,
+  "isTerminalOn": true,
+  "isVisualizerOn": false,
+  "isShowFigure": false,
+  "isSaveFigure": false,
+  "EDServiceRateLst": [0],
+  "psgrPercentLst": [0.3],
+  "renderTime": 0.03,
+  "genEndTime": 999999,
+  "isDBsave": true
+}

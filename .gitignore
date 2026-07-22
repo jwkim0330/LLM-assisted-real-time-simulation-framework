@@ -14,6 +14,8 @@ __pycache__/
 dist/
 build/
 *.egg
+.venv/
+venv/
 
 # ===== Flutter / Dart =====
 .dart_tool/
@@ -52,3 +54,7 @@ drt_app/android/local.properties
 
 # ===== iOS =====
 drt_app/ios/Flutter/Secrets.xcconfig
+
+# ===== 재현성 패키지 생성물 =====
+simulation/results_experiment/**/*.csv
+analysis/figures/output/*.tiff
