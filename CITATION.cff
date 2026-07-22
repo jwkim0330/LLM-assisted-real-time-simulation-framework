@@ -1,15 +1,26 @@
 cff-version: 1.2.0
 message: "Please cite this software and data package when using it."
-title: "Reproducibility package for A human-in-the-loop simulation framework with large language model interfaces for demand-responsive transport operations"
+title: "Reproducibility package for An LLM-assisted real-time simulation framework for demand-responsive transport operations"
 type: software
 version: 1.0.0
+date-released: 2026-07-22
+license: MIT
+repository-code: "https://github.com/jwkim0330/LLM-assisted-real-time-simulation-framework"
 authors:
   - family-names: Kim
     given-names: Jun-Woo
+    orcid: "https://orcid.org/0009-0001-2699-4125"
   - family-names: Choi
     given-names: Min-Ho
+    orcid: "https://orcid.org/0009-0000-2649-8087"
   - family-names: Lee
     given-names: Sun-Woo
+    orcid: "https://orcid.org/0009-0007-6986-4930"
   - family-names: Seo
     given-names: Kyung-Min
-license: MIT
+    orcid: "https://orcid.org/0000-0003-1017-1674"
+keywords:
+  - demand-responsive transport
+  - large language model
+  - real-time simulation
+  - reproducibility package
